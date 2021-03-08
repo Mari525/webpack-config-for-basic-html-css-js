@@ -1,8 +1,8 @@
 {
-  "name": "greed-beer",
+  "name": "webpack-config-for-basic-html-css-js",
   "version": "1.0.0",
   "private": true,
-  "description": "Вторая лабораторная работа, которая демонстрирует работу с grid'ами на примере сайта небольшой пивной компании",
+  "description": "Универсальный сборщик для CSS, HTML, JS",
   "scripts": {
     "eslint": "eslint --ext .js src/",
     "test": "npm run eslint",
