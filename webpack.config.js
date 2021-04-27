@@ -14,7 +14,6 @@ function generateHtmlPlugins(templateDir) {
         return new HtmlPlugin({
             filename: `${name}.html`,
             template: path.resolve(__dirname, `${templateDir}/${name}.${extension}`),
-            inject: true,
         })
     })
 }
@@ -85,7 +84,6 @@ module.exports = {
         ]
     },
     plugins: [
-
         new CopyPlugin({
           patterns: [
             {
