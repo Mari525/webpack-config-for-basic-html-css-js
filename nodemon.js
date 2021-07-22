@@ -8,7 +8,7 @@ const logger = Weblog ({
 });
 
 const nodemonConfig = {
-  delay: `2500`,
+  delay: `2000`,
   ext: `html`,
   ignore: [
     `build`,

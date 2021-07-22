@@ -37,7 +37,6 @@ module.exports = {
     devtool: `source-map`,
     devServer: {
         contentBase: path.resolve(__dirname, `build`),
-        open: true,
         port: 9111,
         watchContentBase: true
     },

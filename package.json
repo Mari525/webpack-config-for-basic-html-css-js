@@ -8,7 +8,7 @@
     "test": "npm run eslint",
     "build": "webpack --mode production",
     "start": "webpack serve --open",
-    "server": "node nodemon.js --exec \"webpack serve\""
+    "server": "node nodemon.js --exec \"webpack serve --mode=development\""
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
