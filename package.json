@@ -7,7 +7,8 @@
     "esling": "eslint --ext .js src/",
     "test": "npm run eslint",
     "build": "webpack --mode production",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "server": "node nodemon.js --exec \"webpack serve\""
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
@@ -21,6 +22,8 @@
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.12",
     "postcss": "^8.2.14",
     "postcss-advanced-variables": "^3.0.1",
     "postcss-apply": "^0.12.0",

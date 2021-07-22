@@ -2,6 +2,7 @@ const path = require(`path`);
 const fs = require(`fs`);
 const HtmlPlugin = require(`html-webpack-plugin`);
 const CopyPlugin = require(`copy-webpack-plugin`);
+const Nodemon = require(`nodemon`);
 
 function generateHtmlPlugins(templateDir) {
     const templateFiles = fs.readdirSync(path.resolve(__dirname, templateDir));
